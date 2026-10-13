@@ -1,0 +1,18 @@
+[package]
+name = "stable_digest"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Stable, dependency-light, no_std SHA-256 content digest rendered as lowercase hex."
+authors = ["James Hunt <james@1o.business>"]
+repository = "https://github.com/jameshuntt/stable_digest"
+readme = "README.md"
+keywords = ["digest", "sha256", "no-std", "content-addressing"]
+categories = ["cryptography", "no-std"]
+
+[dependencies]
+sha2 = "0.10.8"
+
+[lib]
+name = "stable_digest"
+path = "src/lib.rs"
