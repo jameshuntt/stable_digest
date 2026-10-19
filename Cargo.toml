@@ -2,6 +2,7 @@
 name = "stable_digest"
 version = "0.1.1"
 edition = "2021"
+rust-version = "1.56"
 license = "MIT OR Apache-2.0"
 description = "Stable, dependency-light, no_std SHA-256 content digest rendered as lowercase hex."
 authors = ["James Hunt <james@1o.business>"]
